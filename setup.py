@@ -41,6 +41,6 @@ setup(name='box-linux-sync',
     install_requires=install_requires,
     entry_points={
         'console_scripts':
-            ['box-linux-sync=noiselabs.box:main']
+            ['box-linux-sync=noiselabs.box.main:box_main']
     }
 )
